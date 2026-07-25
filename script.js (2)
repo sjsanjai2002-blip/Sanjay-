@@ -1,0 +1,25 @@
+const correctPassword = "mental";
+
+function checkPassword() {
+    let entered = document.getElementById("password").value.trim().toLowerCase();
+
+    if (entered === correctPassword.toLowerCase()) {
+
+        document.querySelector(".login").style.display = "none";
+        document.getElementById("gift").style.display = "block";
+
+    } else {
+
+        document.getElementById("error").innerHTML =
+        "❌ Wrong Password!<br>💡 Password correct ah podu : <b>mental</b>";
+
+    }
+}
+
+function openGift(){
+
+    document.getElementById("gift").style.display = "none";
+
+    document.getElementById("photo").style.display = "block";
+
+}

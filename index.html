@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>💖 Secret Surprise 💖</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Animated Background -->
+
+<div class="background">
+
+<div class="stars"></div>
+
+<div class="hearts"></div>
+
+<div class="flowers"></div>
+
+<div class="glitter"></div>
+
+</div>
+
+<!-- Password Page -->
+
+<div class="page active" id="loginPage">
+
+<div class="glass">
+
+<h1>🔐 Secret Surprise 🔐</h1>
+
+<p>Only a Special Person Can Unlock This 💖</p>
+
+<input
+type="password"
+id="password"
+placeholder="Enter Password">
+
+<button onclick="checkPassword()">
+
+✨ Unlock ✨
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Popup -->
+
+<div class="popup" id="popup">
+
+<div class="popup-box">
+
+<h2>😜 Oops!</h2>
+
+<p>
+
+❌ Wrong Password<br><br>
+
+💡 Password correct ah podu<br>
+
+<b>mental</b>
+
+</p>
+
+<button onclick="closePopup()">
+
+Try Again ❤️
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Gift Page -->
+
+<div class="page" id="giftPage">
+
+<div class="gift-box">
+
+<div class="gift-lid"></div>
+
+<div class="gift-body"></div>
+
+</div>
+
+<h2>You Have a Surprise 🎁</h2>
+
+<p>
+
+Click the Gift Box ❤️
+
+</p>
+
+<button onclick="openGift()">
+
+🎁 Open Surprise
+
+</button>
+
+</div>
+<!-- Photo Page -->
+
+<div class="page" id="photoPage">
+
+<div class="glass photo-card">
+
+<div class="photo-frame">
+
+<img src="photo.jpg.png" id="friendPhoto" alt="Friend Photo">
+
+</div>
+
+<h1 class="title">
+
+💖 MENTAL 💖
+
+</h1>
+
+<p class="message">
+
+✨ You unlocked my special surprise ✨
+
+</p>
+
+<div class="emoji-row">
+
+❤️ 💕 🌸 ✨ 🦋 💖 🎀 🌺
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Floating Hearts -->
+
+<div class="heart h1">❤️</div>
+<div class="heart h2">💖</div>
+<div class="heart h3">💕</div>
+<div class="heart h4">❤️</div>
+<div class="heart h5">💗</div>
+<div class="heart h6">💘</div>
+
+<!-- Flowers -->
+
+<div class="flower f1">🌸</div>
+<div class="flower f2">🌺</div>
+<div class="flower f3">🌷</div>
+<div class="flower f4">🌸</div>
+<div class="flower f5">🌹</div>
+
+<!-- Glitter -->
+
+<div class="spark s1">✨</div>
+<div class="spark s2">✨</div>
+<div class="spark s3">⭐</div>
+<div class="spark s4">✨</div>
+<div class="spark s5">⭐</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
